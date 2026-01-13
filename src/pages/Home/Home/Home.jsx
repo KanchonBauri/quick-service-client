@@ -1,10 +1,12 @@
+import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div>
-            <p>Home Page Content</p>
+        <div className="mb-10">
+            <Banner />
         </div>
     );
 };
+
 
 export default Home;
